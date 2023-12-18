@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import { draftMode } from 'next/headers';
 import { getAllPostsWithSlug, getPost } from '../../../lib/api-graphql';
 

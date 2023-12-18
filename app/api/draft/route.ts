@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 // route handler with secret and slug
 import { getPreviewPostBySlug } from '@/lib/api-graphql';
 import { cookies, draftMode } from 'next/headers';
